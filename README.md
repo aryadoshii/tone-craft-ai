@@ -206,8 +206,7 @@ tone-craft-ai/
 │   └── assets/               # Banner, logo, screenshots
 │
 ├── .env.example              # API key template
-├── pyproject.toml            # UV dependency management
-└── requirements.txt
+└── pyproject.toml            # UV dependency management
 ```
 
 **Where to look for what:**
@@ -249,12 +248,6 @@ cp .env.example .env
 nano .env  # Add your QUBRID_API_KEY
 
 # 6. Run the app
-streamlit run app.py
-```
-
-### Fallback (pip)
-```bash
-pip install -r requirements.txt
 streamlit run app.py
 ```
 
